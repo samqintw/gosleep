@@ -1,2 +1,2 @@
 
-    CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./bin/gosleep
+    CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./bin/gosleep main.go 
